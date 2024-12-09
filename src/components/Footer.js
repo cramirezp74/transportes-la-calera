@@ -1,15 +1,13 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer id="contacto" className="footer">
-      <h2>Contáctanos</h2>
-      <p>Teléfono y WhatsApp: <a href="tel:+56973893504">+56 9 7389 3504</a></p>
-      <p>Email: info@transporteslacalera.cl</p>
-      <p>Transportes La Calera - Compromiso y Calidad</p>
+    <footer className="bg-gray-800 text-white py-4">
+      <div className="container mx-auto text-center">
+        <p className="text-sm">&copy; 2024 Transportes La Calera. Todos los derechos reservados.</p>
+      </div>
     </footer>
   );
-}
+};
 
 export default Footer;
